@@ -1,3 +1,3 @@
 # landing-page
 
-This project is used for odin css project.
+This project is used for Odin css project.
