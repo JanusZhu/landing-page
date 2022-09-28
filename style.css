@@ -8,11 +8,14 @@ body {
   justify-content: space-around;
   align-items: center;
   padding: 5px;
+  position: sticky;
+  top: 0;
+  z-index: 999;
 }
 
 .header-logo {
   font-size: 24px;
-  font-weight: 500;
+  font-weight: bold;
 }
 
 ul {
@@ -66,6 +69,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #f9faf8;
 }
 
 .signup {
@@ -73,6 +77,106 @@ a {
   color: #e5e7eb;
   margin-top: 10px;
   border: none;
-  border-radius: 5%;
+  border-radius: 10px;
   padding: 10px 30px;
+}
+
+.information-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.information-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 200px;
+  margin: 50px;
+}
+img {
+  width: 150px;
+  height: 150px;
+  border-color: #3882f6;
+  border-radius: 10px;
+  border-style: solid;
+}
+
+.title {
+  font-size: 36px;
+  font-weight: bold;
+  color: #1f2937;
+  margin-top: 30px;
+}
+
+.text {
+  margin: 10px;
+  text-align: center;
+}
+
+.quote-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #e5e7eb;
+  padding: 150px 400px;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+}
+
+.quote-source {
+  margin-left: auto;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.call-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color: #3882f6;
+  margin: 100px 300px;
+  padding: 50px 100px;
+  border: none;
+  border-radius: 10px;
+  color: #e5e7eb;
+}
+
+.call-title {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.call-button {
+  background-color: #3882f6;
+  color: #e5e7eb;
+  border: solid;
+  border-radius: 10px;
+  padding: 5px 30px;
+}
+
+.call-right {
+  margin-left: auto;
+  margin-right: 100px;
+}
+
+.footer {
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-text {
+  color: #e5e7eb;
+  margin: 40px;
 }

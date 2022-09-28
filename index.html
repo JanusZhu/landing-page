@@ -10,17 +10,17 @@
   <body>
     <div class="header">
       <div class="header-logo">
-        <div>Header Logo</div>
+        <div><a href="#">Header Logo</a></div>
       </div>
       <div class="header-links">
         <ul>
-          <li><a href="#">Link One</a></li>
-          <li><a href="#">Link Two</a></li>
-          <li><a href="#">Link Three</a></li>
+          <li><a href="#main">Link One</a></li>
+          <li><a href="#information">Link Two</a></li>
+          <li><a href="#quote">Link Three</a></li>
         </ul>
       </div>
     </div>
-    <div class="main-content">
+    <div class="main-content" id="main">
       <div class="left">
         <div class="hero-main-text">This website is awesome!</div>
         <div class="hero-secondary-text">
@@ -33,8 +33,57 @@
         <div>This is a placeholder!</div>
       </div>
     </div>
-    <div class="information-section"></div>
-    <div class="quote-section"></div>
-    <div class="footer"></div>
+    <div class="information-section" id="information">
+      <div class="title">Some random information</div>
+      <div class="information-container">
+        <div class="info">
+          <img src="./img/1.jpg" alt="barberry" />
+          <div class="text">
+            This is some subtext under an illustartion or image
+          </div>
+        </div>
+        <div class="info">
+          <img src="./img/2.jpg" alt="chili" />
+          <div class="text">
+            This is some subtext under an illustartion or image
+          </div>
+        </div>
+        <div class="info">
+          <img src="./img/3.jpg" alt="pepper" />
+          <div class="text">
+            This is some subtext under an illustartion or image
+          </div>
+        </div>
+        <div class="info">
+          <img src="./img/4.jpg" alt="saffron" />
+          <div class="text">
+            This is some subtext under an illustartion or image
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="quote-section" id="quote">
+      <div class="quote-text">
+        Part of the secret of success is to eat what you like and let the food
+        fight it out inside.
+      </div>
+      <div class="quote-source">-Mark Twain</div>
+    </div>
+    <div class="call-section">
+      <div class="call-container">
+        <div>
+          <div class="call-title">Call to action! It's time!</div>
+          <div class="call-text">
+            Sign up for our product by clicking that button right over there!
+          </div>
+        </div>
+        <div class="call-right">
+          <button class="call-button">Sign up!</button>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="footer-text">Copyright © Janus Zhu</div>
+    </div>
   </body>
 </html>
