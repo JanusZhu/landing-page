@@ -1,0 +1,78 @@
+body {
+  font-family: monospace;
+}
+.header {
+  color: #f9faf8;
+  background: #1f2937;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 5px;
+}
+
+.header-logo {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+ul {
+  /* this removes the dots on the list items*/
+  list-style-type: none;
+  display: flex;
+}
+
+li {
+  margin: 20px;
+}
+
+a {
+  font-size: 22px;
+  color: azure;
+
+  /* this removes the line under the links */
+  text-decoration: none;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  background-color: #1f2937;
+  padding: 80px 50px;
+}
+
+.left {
+  margin-left: 260px;
+  width: 400px;
+}
+.hero-main-text {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+}
+
+.hero-secondary-text {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin-top: 10px;
+}
+
+.right {
+  background: grey;
+  width: 600px;
+  height: 200px;
+  margin-right: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signup {
+  background-color: #3882f6;
+  color: #e5e7eb;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5%;
+  padding: 10px 30px;
+}
